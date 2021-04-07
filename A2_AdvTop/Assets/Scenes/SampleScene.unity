@@ -314,7 +314,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2c45500924aa0794db4e85b99886d810, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.331
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -997,6 +997,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6134656885714575318, guid: 0d4098f39ccb8d74e803e3669a0c716e, type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 2138893889}
+    - target: {fileID: 6134656885714575318, guid: 0d4098f39ccb8d74e803e3669a0c716e, type: 3}
       propertyPath: velocityX
       value: 1
       objectReference: {fileID: 0}
@@ -1004,6 +1008,10 @@ PrefabInstance:
       propertyPath: jumpVelocity
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6134656885714575318, guid: 0d4098f39ccb8d74e803e3669a0c716e, type: 3}
+      propertyPath: backgroundMusic
+      value: 
+      objectReference: {fileID: 967933926}
     - target: {fileID: 6301546901023796422, guid: 0d4098f39ccb8d74e803e3669a0c716e, type: 3}
       propertyPath: m_BodyType
       value: 0
